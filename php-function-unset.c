@@ -1,6 +1,6 @@
 /**
  * 实现php 释放函数功能(function_unset)  类似变量 unset  
- *   
+ *   核心函数：zend_hash_del_key_or_index   删除function_table hashtable中对应函数名
  */
 PHP_FUNCTION(function_unset)
 {
